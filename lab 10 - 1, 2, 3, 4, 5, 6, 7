@@ -1,0 +1,109 @@
+using System;
+
+namespace Lab_10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* №1
+            Console.Write("A = ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("B = ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            if( a > 2 & b <= 3)
+            {
+                Console.Write("Справедливы неравенства A > 2 и B <= 3");
+            }
+            else
+            {
+                Console.Write("Несправедливы неравенства A > 2 и B <= 3");
+            }
+            */
+
+            /* №2
+            Console.Write("A = ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("B = ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.Write("С = ");
+            int c = Convert.ToInt32(Console.ReadLine());
+            if (a < b & b < c)
+            {
+                Console.Write("Справедливо двойное неравенство A < B < C");
+            }
+            else
+            {
+                Console.Write("Несправедливо двойное неравенство A < B < C");
+            }
+            */
+
+            /* № 3
+            Console.Write("A = ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a % 2 == 0 && a > 9 && a < 100)
+            {
+                Console.Write("Данное число является четным двузначным");
+            }
+            else
+            {
+                Console.Write("Данное число не является четным двузначным");
+            }
+            */
+
+            /* №4
+            Console.Write("Введите трехзначное число A = ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if ((a / 100) > (a % 100 / 10) && (a % 100 / 10) > (a % 10) || (a / 100) < (a % 100 / 10) && (a % 100 / 10) < (a % 10))
+            {
+                Console.Write("Цифры данного числа образуют возрастающую или убывающую последовательность");
+            }
+            else
+            {
+                Console.Write("Цифры данного числа НЕ образуют возрастающую или убывающую последовательность");
+            }
+            */
+
+            /* №5
+            Console.Write("Введите трехзначное число A = ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            a = Math.Abs(a);
+            Console.Write(a % 10 == a / 1000 & a % 100 / 10 == a % 1000 / 100);
+            */
+
+            /* №6
+            Console.Write("A = ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("B = ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.Write("С = ");
+            int c = Convert.ToInt32(Console.ReadLine());
+            if ((a * a + b * b == c * c) || (a * a + c * c == b * b) || (c * c + b * b == a * a))
+            {
+                Console.Write("Треугольник со сторонами a, b, c является прямоугольным");
+            }
+            else
+            {
+                Console.Write("Треугольник со сторонами a, b, c НЕ является прямоугольным");
+            }
+            */
+
+            /* №7
+            Console.Write("A = ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("B = ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.Write("С = ");
+            int c = Convert.ToInt32(Console.ReadLine());
+            if ((a + b > c) && (b + c > a) && (a + c > b))
+            {
+                Console.Write("Существует треугольник со сторонами a, b, c");
+            }
+            else
+            {
+                Console.Write("НЕ существует треугольник со сторонами a, b, c");
+            }
+            */
+        }
+    }
+}
